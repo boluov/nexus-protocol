@@ -7,6 +7,9 @@ import Infrastructure from './components/Infrastructure';
 import Developers from './components/Developers';
 import Footer from './components/Footer';
 
+import Quote from './components/Quote';
+import UseCases from './components/UseCases';
+
 function App() {
   return (
     <div className="bg-background-dark min-h-screen overflow-x-hidden relative text-gray-100">
@@ -19,11 +22,13 @@ function App() {
       </div>
 
       <Navbar />
-      
+
       <main className="relative z-10">
         <Hero />
+        <Quote />
         <Standards />
         <ProtocolFlow />
+        <UseCases />
         <Infrastructure />
         <Developers />
       </main>
