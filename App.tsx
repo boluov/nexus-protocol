@@ -26,11 +26,11 @@ function App() {
       <main className="relative z-10">
         <Hero />
         <Quote />
-        <Standards />
-        <ProtocolFlow />
         <UseCases />
-        <Infrastructure />
         <Developers />
+        <ProtocolFlow />
+        <Standards />
+        <Infrastructure />
       </main>
 
       <Footer />
